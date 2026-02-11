@@ -23,8 +23,7 @@ yarn-debug.log*
 yarn-error.log*
 
 #else
-.idea/
-/idea
+**/.idea/
 *.sketch
 *.fig
 *.xd
