@@ -1,4 +1,5 @@
 import React from "react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import styles from "./app.module.css";
 import OrderCard from "../order_card/OrderCard";
 import backgroundImage from "../images/pattern-background-desktop.svg";
@@ -18,6 +19,7 @@ const App = () => {
         alt="music flipped"
       />
       <OrderCard />
+      <SpeedInsights />
     </div>
   );
 };
