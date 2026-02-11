@@ -24,7 +24,7 @@ yarn-error.log*
 
 #else
 **/.idea/
-.idea/
+Order-summary-component-main/.idea/
 *.sketch
 *.fig
 *.xd
