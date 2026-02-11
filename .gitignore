@@ -30,3 +30,5 @@ Order-summary-component-main/.idea/
 *.xd
 .DS_Store
 .prettierignore
+.vercel
+.env*.local
