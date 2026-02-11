@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./buttons.module.css";
 
-function CancelOrder() {
+const CancelOrder = () => {
   return (
     <button className={styles.cancelOrderButtonStyle}>Cancel Order</button>
   );
-}
+};
 
 export default CancelOrder;

@@ -1,12 +1,11 @@
-import React from "react";
-import AnnualPlanCard from "./annualPlanCard";
-import ProceedToPayment from "../Buttons/proceedToPayment";
-import CancelOrder from "../Buttons/cancelOrder";
-import styles from "./card.module.css";
 import image from "../Images/illustration-hero.svg";
-import TypographyContent from "../Typography/typographyContent";
+import AnnualPlanCard from "./AnnualPlanCard";
+import TypographyContent from "../Typography/TypographyContent";
+import CancelOrder from "../Buttons/CancelOrder";
+import styles from "./card.module.css";
+import ProceedToPayment from "../Buttons/ProceedToPayment";
 
-function MainCard() {
+const MainCard = () => {
   return (
     <div className={styles.mainCardStyle}>
       <img
@@ -15,16 +14,14 @@ function MainCard() {
         alt="girl dancing to music"
       />
 
-      <div className={styles.cardStyle}>
+      <div className={styles.annualPlanHeaderAndPrice}>
         <TypographyContent />
-
         <AnnualPlanCard />
-
         <ProceedToPayment />
         <CancelOrder />
       </div>
     </div>
   );
-}
+};
 
 export default MainCard;
