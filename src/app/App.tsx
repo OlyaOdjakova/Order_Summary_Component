@@ -1,11 +1,11 @@
 import React from "react";
-import MainCard from "../MainCard/mainCard";
 import styles from "./app.module.css";
+import OrderCard from "../order_card/OrderCard";
 
 function App() {
   return (
     <div className={styles.appJsStyle}>
-      <MainCard />
+      <OrderCard />
     </div>
   );
 }

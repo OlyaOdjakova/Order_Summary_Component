@@ -1,0 +1,17 @@
+.mainCardStyle {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 20px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 1px 1px 5px darkgray;
+}
+
+.imageStyle {
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 15px 15px 0 0;
+}
