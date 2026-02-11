@@ -5,12 +5,19 @@ import styles from "./cardBody.module.css";
 const AnnualPlanCard = () => {
   return (
     <div className={styles.annualPlanCardStyle}>
-      <img src={iconimage} className={styles.annualPlanCardImage} alt="music" />
-      <div className={styles.annualPlanHeaderAndPrice}>
-        <h4 className={styles.annualPlanHeader}>Annual Plan</h4>
-        <p className={styles.yearPrice}>$59.99/year</p>
+      <div className={styles.annualPlanStyle}>
+        <img
+          src={iconimage}
+          className={styles.annualPlanCardImage}
+          alt="music"
+        />
+        <div className={styles.annualPlanHeaderAndPrice}>
+          <h5 className={styles.annualPlanHeader}>Annual Plan</h5>
+          <p className={styles.yearPrice}>$59.99/year</p>
+        </div>
       </div>
-      <a className={styles.annualPlanChangeLink}>Change</a>
+
+      <div className={styles.annualPlanChangeLink}>Change</div>
     </div>
   );
 };
