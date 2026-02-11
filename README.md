@@ -1,8 +1,17 @@
-### This project was a made as a challenge from frontendmentor.io: https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj
+# Order Summary Component
 
-### Technnologies used
+A responsive web component made as a challenge from frontendmentor.io: 
 
-- React.js, TypeScript, HTML, CSS
+https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj
 
-For running the application run:
-### `npm start`
+
+**Tech Stack:**
+- TypeScript
+- React.js
+- HTML
+- CSS
+
+**Live Demo:**
+Deployed on Vercel: https://order-summary-component-1jtm.vercel.app/
+
+For running the application run: `npm start`
