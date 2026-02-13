@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./app.module.css";
 import OrderCard from "./order_card/OrderCard";
-import backgroundImage from "./images/pattern-background-desktop.svg";
+import backgroundImage from "../../images/pattern-background-desktop.svg";
 
 const App = () => {
   return (
@@ -11,7 +11,6 @@ const App = () => {
         className={styles.annualPlanCardImage}
         alt="music"
       />
-
       <img
         src={backgroundImage}
         className={`${styles.annualPlanCardImage} ${styles.flippedImage}`}
