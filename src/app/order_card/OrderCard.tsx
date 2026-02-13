@@ -1,4 +1,4 @@
-import image from "../../../images/illustration-hero.svg";
+import image from "../../images/illustration-hero.svg";
 import styles from "./orderCard.module.css";
 import CardBody from "./card_body/CardBody";
 

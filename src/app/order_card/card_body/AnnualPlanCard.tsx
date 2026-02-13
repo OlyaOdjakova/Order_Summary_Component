@@ -1,5 +1,5 @@
 import React from "react";
-import iconimage from "../../../../images/icon-music.svg";
+import iconimage from "../../../images/icon-music.svg";
 import styles from "./cardBody.module.css";
 
 const AnnualPlanCard = () => {
