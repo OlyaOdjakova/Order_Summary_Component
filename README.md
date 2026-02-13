@@ -12,6 +12,7 @@ https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj
 - CSS
 
 **Live Demo:**
+
 Deployed on Vercel: https://order-summary-component-1jtm.vercel.app/
 
 For running the application run: `npm start`
